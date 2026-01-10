@@ -1,0 +1,63 @@
+/* Navbar Container */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #333; /* Dark background */
+    
+}
+
+/* Logo Styling */
+nav > h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+/* Navigation Links Container */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation Links */
+nav ul a {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+nav ul a:hover {
+    color: #00c3ff; /* Light blue hover color */
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul a {
+        padding: 10px 0;
+        display: block;
+    }
+}
+
