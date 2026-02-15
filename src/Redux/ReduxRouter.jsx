@@ -11,7 +11,7 @@ import Error from './Error';
 const ReduxRouter = () =>{
     return(
         <BrowserRouter>
-        {/* <Navbar/> */}
+        <Navbar/>
             <Routes>
                 <Route path='/' element={<Home/>} />
                 <Route path='Users' element={<Users/>}/>

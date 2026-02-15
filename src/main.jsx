@@ -26,52 +26,64 @@ import ReactQuery from './ReactQuery/ReactQuery.jsx';
 import VirtualizedList from './VirtualizedListForReact-window/VirtualizedList.jsx';
 import ShowLazyLoad from './LazyLoad/ShowLazyLoad.jsx';
 
-createRoot(document.getElementById('root')).render(
+//----------------------Practise -----------------------------------------
+import PractiseHook from './UseStateHook/practiseHook.jsx';
+import PractiseUseRefs from './UseRefHook/PractiseUseRefs.jsx';
+import PractiseUsereducer from './UseReducerHook/PractiseUsereducer.jsx';
+import PrectiseEffectAndLayout from './UseEffect & Uselayout Hook/PrectiseEffectAndLayout.jsx';
+import PractiseUseMemo from './UseMemo/PractiseUseMemo.jsx';
+import PractiseeUseCallback from './UseCallback/PractiseeUseCallback.jsx';
+
+
+
+//----------------------Practise -----------------------------------------
+
+// createRoot(document.getElementById('root')).render(
   
  
- <StrictMode>
-  {/* <App/> */}
-  {/* <Hooks/> */}
-  {/* <UseEffectHooks/> */}
-  {/* <UseRefs/> */}
+//  <StrictMode>
+//   {/* <App/> */}
+//   {/* <Hooks/> */}
+//   {/* <UseEffectHooks/> */}
+//   {/* <UseRefs/> */}
 
-  {/*-------------- 14-06-2025 */}
+//   {/*-------------- 14-06-2025 */}
   
-  <UseMemo/> 
-  {/* <UseCallBack/> */}
+//   {/* <UseMemo/>  */}
+//   {/* <UseCallBack/> */}
 
-  {/* //main data used multiple pages = USECONTEXT , first create content in main page 
-  // after use the created contex in chid page  */}
+//   {/* //main data used multiple pages = USECONTEXT , first create content in main page 
+//   // after use the created contex in chid page  */}
 
-  {/* <Usecontext/>   */}
-  {/*------------ 16-06-2025 */}
+//   {/* <Usecontext/>   */}
+//   {/*------------ 16-06-2025 */}
 
-  {/* <Usereducer/> */}
-  {/* <EffectAndLayout/> */}
-  {/* <ReactRouter /> */}
+//   {/* <Usereducer/> */}
+//   {/* <EffectAndLayout/> */}
+//   {/* <ReactRouter /> */}
 
-  {/* <ReduxRouter/> */}
+//   {/* <ReduxRouter/> */}
 
-  {/* ------03-08-2025------ */}
+//   {/* ------03-08-2025------ */}
 
-  {/* <Practise/> */}
+//   {/* <Practise/> */}
 
-  {/* ---------09-08-2025--------- */}
+//   {/* ---------09-08-2025--------- */}
   
-  {/* <App/> */}
-  {/* <AxiosVsFetch/> */}
+//   {/* <App/> */}
+//   {/* <AxiosVsFetch/> */}
   
-  {/* <ReactQuery /> */}
+//   {/* <ReactQuery /> */}
 
 
-  {/*------------------- 18-08-2025---------------- */}
+//   {/*------------------- 18-08-2025---------------- */}
 
-  {/* <VirtualizedList /> */}
-  {/* <ShowLazyLoad /> */}
+//   {/* <VirtualizedList /> */}
+//   {/* <ShowLazyLoad /> */}
   
 
 
-</StrictMode> 
+// </StrictMode> 
 
 
 ///----------------------------------------------
@@ -80,7 +92,24 @@ createRoot(document.getElementById('root')).render(
   // <Provider store={store}>
   //   <ReduxRouter/>
   // </Provider>
+
+
  
+ 
+// )
+
+createRoot(document.getElementById('root')).render(
+   <StrictMode>
+    {/* <PractiseHook/> */}
+    {/* <PractiseUseRefs/> */}
+
+    {/* <PractiseUsereducer/> */}
+    {/* <PrectiseEffectAndLayout/> */}
+    {/* <PractiseUseMemo/> */}
+    <PractiseeUseCallback/>
+
+  </StrictMode>
+
 )
 
 
