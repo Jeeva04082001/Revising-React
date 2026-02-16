@@ -16,8 +16,8 @@ import Usereducer from './UseReducerHook/Usereducer.jsx';
 import EffectAndLayout from './UseEffect & Uselayout Hook/EffectAndLayout.jsx';
 import ReactRouter from './ReactRouter/ReactRouter.jsx';
 import Practise from './Practise.jsx';
-import ReduxRouter from './Redux/ReduxRouter.jsx';
-import store from './Redux/store.js';
+// import ReduxRouter from './Redux/ReduxRouter.jsx';
+// import store from './Redux/store.js';
 import { Provider } from 'react-redux';
 
 import App from './ProtectedRoutes/App/App.jsx'
@@ -33,7 +33,8 @@ import PractiseUsereducer from './UseReducerHook/PractiseUsereducer.jsx';
 import PrectiseEffectAndLayout from './UseEffect & Uselayout Hook/PrectiseEffectAndLayout.jsx';
 import PractiseUseMemo from './UseMemo/PractiseUseMemo.jsx';
 import PractiseeUseCallback from './UseCallback/PractiseeUseCallback.jsx';
-
+import ReduxRouter from './ReduxPractise/Router/ReduxRouter.jsx';
+import store from './ReduxPractise/Store/store.js';
 
 
 //----------------------Practise -----------------------------------------
@@ -99,16 +100,22 @@ import PractiseeUseCallback from './UseCallback/PractiseeUseCallback.jsx';
 // )
 
 createRoot(document.getElementById('root')).render(
-   <StrictMode>
-    {/* <PractiseHook/> */}
-    {/* <PractiseUseRefs/> */}
+  // <StrictMode>
+  //   {/* <PractiseHook/> */}
+  //   {/* <PractiseUseRefs/> */}
 
-    {/* <PractiseUsereducer/> */}
-    {/* <PrectiseEffectAndLayout/> */}
-    {/* <PractiseUseMemo/> */}
-    <PractiseeUseCallback/>
+  //   {/* <PractiseUsereducer/> */}
+  //   {/* <PrectiseEffectAndLayout/> */}
+  //   {/* <PractiseUseMemo/> */}
+  //   {/* <PractiseeUseCallback/> */}
+  //   {/* <ReduxRouter /> */}
 
-  </StrictMode>
+  // </StrictMode>
+
+  <Provider store={store}>
+    <ReduxRouter/>
+  </Provider>
+
 
 )
 
