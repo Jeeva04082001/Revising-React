@@ -35,6 +35,8 @@ import PractiseUseMemo from './UseMemo/PractiseUseMemo.jsx';
 import PractiseeUseCallback from './UseCallback/PractiseeUseCallback.jsx';
 import ReduxRouter from './ReduxPractise/Router/ReduxRouter.jsx';
 import store from './ReduxPractise/Store/store.js';
+import SimpleDebounce from './Debounce/SimpleDebounce.jsx';
+import Component from './Debounce/Component.jsx';
 
 
 //----------------------Practise -----------------------------------------
@@ -100,21 +102,23 @@ import store from './ReduxPractise/Store/store.js';
 // )
 
 createRoot(document.getElementById('root')).render(
-  // <StrictMode>
-  //   {/* <PractiseHook/> */}
-  //   {/* <PractiseUseRefs/> */}
+  <StrictMode>
+    {/* <PractiseHook/> */}
+    {/* <PractiseUseRefs/> */}
 
-  //   {/* <PractiseUsereducer/> */}
-  //   {/* <PrectiseEffectAndLayout/> */}
-  //   {/* <PractiseUseMemo/> */}
-  //   {/* <PractiseeUseCallback/> */}
-  //   {/* <ReduxRouter /> */}
+    {/* <PractiseUsereducer/> */}
+    {/* <PrectiseEffectAndLayout/> */}
+    {/* <PractiseUseMemo/> */}
+    {/* <PractiseeUseCallback/> */}
+    {/* <ReduxRouter /> */}
+    <SimpleDebounce />
+    {/* <Component /> */}
 
-  // </StrictMode>
+  </StrictMode>
 
-  <Provider store={store}>
-    <ReduxRouter/>
-  </Provider>
+  // <Provider store={store}>
+  //   <ReduxRouter/>
+  // </Provider>
 
 
 )
