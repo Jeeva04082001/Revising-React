@@ -4,8 +4,8 @@ import {useDebounce} from "./CustomDebounceHook";
 
 const Component = () => {
     const [search, setSearch] = useState("");
-    const [users, setUsers] = useState([]);
     const [allUsers, setAllUsers] = useState([]);
+    const [users, setUsers] = useState([]);
     const debounce = useDebounce(search,500);
 
     useEffect(()=>{

@@ -37,6 +37,8 @@ import ReduxRouter from './ReduxPractise/Router/ReduxRouter.jsx';
 import store from './ReduxPractise/Store/store.js';
 import SimpleDebounce from './Debounce/SimpleDebounce.jsx';
 import Component from './Debounce/Component.jsx';
+import SampleDebounce from './Debounce/SampleDebounce.jsx';
+import ButtonClickExample from './Throttle/ButtonClickExample.jsx';
 
 
 //----------------------Practise -----------------------------------------
@@ -111,8 +113,10 @@ createRoot(document.getElementById('root')).render(
     {/* <PractiseUseMemo/> */}
     {/* <PractiseeUseCallback/> */}
     {/* <ReduxRouter /> */}
-    <SimpleDebounce />
+    {/* <SimpleDebounce /> */}
+    {/* <SampleDebounce/> */}
     {/* <Component /> */}
+    <ButtonClickExample/>
 
   </StrictMode>
 
